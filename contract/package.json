@@ -1,0 +1,13 @@
+{
+  "name": "@credveil/contract",
+  "version": "0.1.0",
+  "description": "CredVeil Compact 0.31.1 smart contract workspace",
+  "type": "module",
+  "scripts": {
+    "compact:compile": "compact compile src/credveil.compact src/managed/credveil",
+    "build": "npm run compact:compile && tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
