@@ -5,9 +5,14 @@
   "type": "module",
   "scripts": {
     "compact:compile": "compact compile src/credveil.compact src/managed/credveil",
-    "build": "npm run compact:compile && tsc"
+    "build": "npm run compact:compile && mkdir -p dist && cp -r src/managed dist/managed && tsc",
+    "test": "npm run build && node --test dist/test/credveil.test.js"
+  },
+  "dependencies": {
+    "@midnight-ntwrk/compact-runtime": "0.16.0"
   },
   "devDependencies": {
+    "@types/node": "^22.13.4",
     "typescript": "^5.3.3"
   }
 }
