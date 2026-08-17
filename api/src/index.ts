@@ -5,3 +5,4 @@
 export * from './contract.js';
 export * from './providers.js';
 export * from './provider-factory.js';
+export * from './contract-service.js';
