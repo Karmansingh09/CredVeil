@@ -9,3 +9,4 @@ export * from './contract-service.js';
 export * from './transaction-service.js';
 export * from './lace-connector.js';
 export * from './lace-provider-bridge.js';
+export * from './verification-call.js';
