@@ -11,3 +11,4 @@ export * from './lace-connector.js';
 export * from './lace-provider-bridge.js';
 export * from './verification-call.js';
 export * from './transaction-builder.js';
+export * from './transaction-executor.js';
