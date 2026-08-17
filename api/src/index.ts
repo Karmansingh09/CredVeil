@@ -1,6 +1,7 @@
 /**
- * CredVeil API Integration Layer
+ * CredVeil API Integration Layer Entrypoint
  */
 
 export * from './contract.js';
 export * from './providers.js';
+export * from './provider-factory.js';
