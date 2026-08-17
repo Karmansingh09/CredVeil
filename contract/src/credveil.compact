@@ -1,0 +1,15 @@
+pragma language_version 0.23.0;
+
+import CompactStandardLibrary;
+
+// Public Contract Ledger State
+export ledger credential_commitment: Bytes<32>;
+export ledger eligibility_threshold: Uint<32>;
+export ledger verification_count: Uint<32>;
+
+// Deployment Constructor
+constructor(commitment: Bytes<32>, threshold: Uint<32>) {
+  credential_commitment = disclose(commitment);
+  eligibility_threshold = disclose(threshold);
+  verification_count = 0;
+}

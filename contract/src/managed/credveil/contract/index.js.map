@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "file": "index.js",
+  "sourceRoot": "../../../../",
+  "sources": ["src/credveil.compact"],
+  "names": [],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAUA;;;;;;;;;;;;;GAIC;EAJD;;;;;UAAY,YAAqB;UAAE,WAAmB;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IALtD;;;;;;;;;yEAA+C;IAC/C;;;;;;;;;yEAA8C;IAC9C;;;;;;;;;yEAA2C;IAIzC;;;;;;;2HAAiC,YAAU;;yEAAtB;IACrB;;;;;;;2HAAiC,WAAS;;yEAArB;UACrB,KAAkB;IAAlB;;;;;;;2HAAA,KAAkB;;yEAAA;;;;;;;GACnB;;;;;;;;;;;;;;;;IATD;qCAAA;;;;;;;;;;;0GAA+C;KAAA;IAC/C;qCAAA;;;;;;;;;;;0GAA8C;KAAA;IAC9C;qCAAA;;;;;;;;;;;0GAA2C;KAAA;;;;;;;;;;"
+}
