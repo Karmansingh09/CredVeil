@@ -7,9 +7,25 @@ export ledger credential_commitment: Bytes<32>;
 export ledger eligibility_threshold: Uint<32>;
 export ledger verification_count: Uint<32>;
 
+// Private Local Witness Functions
+witness get_secret_score(): Uint<32>;
+witness get_secret_salt(): Bytes<32>;
+
 // Deployment Constructor
 constructor(commitment: Bytes<32>, threshold: Uint<32>) {
   credential_commitment = disclose(commitment);
   eligibility_threshold = disclose(threshold);
   verification_count = 0;
+}
+
+// Core Verification Circuit: Proves eligibility without disclosing private score
+export circuit verify_eligibility(): [] {
+  const score = get_secret_score();
+  const salt = get_secret_salt();
+
+  const computed_commitment = persistentHash<[Uint<32>, Bytes<32>]>([score, salt]);
+  assert(computed_commitment == credential_commitment, "Invalid credential commitment");
+  assert(score >= eligibility_threshold, "Score below required threshold");
+
+  verification_count = (verification_count + 1) as Uint<32>;
 }

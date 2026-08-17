@@ -2,7 +2,7 @@
   "version": 3,
   "file": "index.js",
   "sourceRoot": "../../../../",
-  "sources": ["src/credveil.compact"],
+  "sources": ["src/credveil.compact", "compiler/standard-library.compact"],
   "names": [],
-  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAUA;;;;;;;;;;;;;GAIC;EAJD;;;;;UAAY,YAAqB;UAAE,WAAmB;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IALtD;;;;;;;;;yEAA+C;IAC/C;;;;;;;;;yEAA8C;IAC9C;;;;;;;;;yEAA2C;IAIzC;;;;;;;2HAAiC,YAAU;;yEAAtB;IACrB;;;;;;;2HAAiC,WAAS;;yEAArB;UACrB,KAAkB;IAAlB;;;;;;;2HAAA,KAAkB;;yEAAA;;;;;;;GACnB;;;;;;;;;;;;;;;;IATD;qCAAA;;;;;;;;;;;0GAA+C;KAAA;IAC/C;qCAAA;;;;;;;;;;;0GAA8C;KAAA;IAC9C;qCAAA;;;;;;;;;;;0GAA2C;KAAA;;;;;;;;;;"
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAcA;;;;;;;;;;;;;;;;MAOA,AAAA,kBASC;;;;;;;;;;;;;;;;;;;;;;OAAA;;;;;;;;GAZA;EAJD;;;;;UAAY,YAAqB;UAAE,WAAmB;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IATtD;;;;;;;;;yEAA+C;IAC/C;;;;;;;;;yEAA8C;IAC9C;;;;;;;;;yEAA2C;IAQzC;;;;;;;2HAAiC,YAAU;;yEAAtB;IACrB;;;;;;;2HAAiC,WAAS;;yEAArB;UACrB,KAAkB;IAAlB;;;;;;;2HAAA,KAAkB;;yEAAA;;;;;;;GACnB;EClBD,AAAA,kBAAA;oEAAA;;;EDUA,AAAA,mBAAqC;;0DAArC,gBAAqC;;;;;;;;;;;;;;GAAA;EACrC,AAAA,kBAAqC;;0DAArC,eAAqC;;;;;;;;;;;;;;GAAA;EAUrC,AAAA,qBASC;UARO,OAA0B;UAC1B,MAAwB;UAExB,qBAA0E,2BAAb,OAAK,EAAE,MAAI;0CACvE,qBAAmB;kEAAI;;;;;;;;;;;uIAAqB;;4BAC5C,OAAK;;oDAAI;;;;;;;;;;;yHAAqB;;UAErC,KAAkB;;;;;6CAAI;;;;;;;;;;;kHAAkB;;;IAAxC;;;;;;;2HAAA,KAAkB;;yEAAA;;GACnB;;;;;;;;;;;;;;;;;;;;IAzBD;qCAAA;;;;;;;;;;;0GAA+C;KAAA;IAC/C;qCAAA;;;;;;;;;;;0GAA8C;KAAA;IAC9C;qCAAA;;;;;;;;;;;0GAA2C;KAAA;;;;;;;;;;;;;"
 }

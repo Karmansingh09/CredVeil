@@ -3,8 +3,38 @@
   "language-version": "0.23.0",
   "runtime-version": "0.16.0",
   "circuits": [
+    {
+      "name": "verify_eligibility",
+      "pure": false,
+      "proof": true,
+      "arguments": [
+      ],
+      "result-type": {
+        "type-name": "Tuple",
+        "types": [
+        ]
+      }
+    }
   ],
   "witnesses": [
+    {
+      "name": "get_secret_score",
+      "arguments": [
+      ],
+      "result type": {
+        "type-name": "Uint",
+        "maxval": 4294967295
+      }
+    },
+    {
+      "name": "get_secret_salt",
+      "arguments": [
+      ],
+      "result type": {
+        "type-name": "Bytes",
+        "length": 32
+      }
+    }
   ],
   "contracts": [
   ],
